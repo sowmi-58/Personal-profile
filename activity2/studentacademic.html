@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Academic Dashboard</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Student Portal</h2>
+        <a href="#home">Dashboard</a>
+        <a href="#details">Student Details</a>
+        <a href="#results">Semester Results</a>
+        <a href="#attendance">Attendance</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#exams">Examinations</a>
+        <a href="#announcements">Announcements</a>
+    </div>
+    <div class="main">
+        <header id="home">
+            <h1>Academic Dashboard</h1>
+            <p>Welcome back, Rahul Kumar!</p>
+        </header>
+        <section id="details" class="card">
+            <h2>Student Details</h2>
+            <p><b>Name:</b>sowmya</p>
+            <p><b>Roll Number:</b> 26001124</p>
+            <p><b>Course:</b> B.Tech Computer Science</p>
+            <p><b>Semester:</b>first Semester</p>
+            <p><b>Academic Year:</b> 2026-2027</p>
+        </section>
+        <div class="stats">
+            <div class="stat">
+                <h3>CGPA</h3>
+                <p>8.7</p>
+            </div>
+            <div class="stat">
+                <h3>Attendance</h3>
+                <p>85%</p>
+            </div>
+            <div class="stat">
+                <h3>Subjects</h3>
+                <p>6</p>
+            </div>
+            <div class="stat">
+                <h3>Backlogs</h3>
+                <p>0</p>
+            </div>
+        </div>
+        <section id="attendance" class="card">
+            <h2>Attendance Overview</h2>
+            <p>CTLR - 90%</p>
+            <div class="progress">
+                <div class="bar green" style="width:90%"></div>
+            </div>
+            <p>CM - 85%</p>
+            <div class="progress">
+                <div class="bar blue" style="width:85%"></div>
+            </div>
+            <p>English - 75%</p>
+            <div class="progress">
+                <div class="bar orange" style="width:75%"></div>
+            </div>
+            <p>Web Development - 95%</p>
+            <div class="progress">
+                <div class="bar green" style="width:95%"></div>
+            </div>
+        </section>
+        <section id="results" class="card">
+            <h2>Semester Results</h2>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>CTLR</td>
+                    <td>88</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>CM</td>
+                    <td>92</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>78</td>
+                    <td>B+</td>
+                </tr>
+                <tr>
+                    <td>Web Development</td>
+                    <td>85</td>
+                    <td>A</td>
+                </tr>
+            </table>
+        </section>
+        <section id="subjects" class="card">
+            <h2>Subject Information</h2>
+            <div class="subjects">
+                <div class="subject">
+                    <h3>CTLR</h3>
+                    <p>Code: MA401</p>
+                    <p>Credits: 4</p>
+                </div>
+                <div class="subject">
+                    <h3>CM</h3>
+                    <p>Code: CS402</p>
+                    <p>Credits: 4</p>
+                </div>
+                <div class="subject">
+                    <h3>English</h3>
+                    <p>Code: PH403</p>
+                    <p>Credits: 3</p>
+                </div>
+            </div>
+        </section>
+        <section id="exams" class="card">
+            <h2>Examination Schedule</h2>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>CTLR</td>
+                    <td>10 Nov 2026</td>
+                    <td>9:30 AM</td>
+                </tr>
+                <tr>
+                    <td>CM</td>
+                    <td>13 Nov 2026</td>
+                    <td>9:30 AM</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>16 Nov 2026</td>
+                    <td>9:30 AM</td>
+                </tr>
+            </table>
+        </section>
+        <section id="announcements" class="card">
+            <h2>Announcements</h2>
+            <div class="notice">
+                <h3>Examination Notice</h3>
+                <p>Semester examinations begin in November.</p>
+            </div>
+            <div class="notice">
+                <h3>Assignment Submission</h3>
+                <p>Submit all pending assignments before the deadline.</p>
+            </div>
+            <div class="notice">
+                <h3>College Event</h3>
+                <p>Registration for the technical fest is open.</p>
+            </div>
+        </section>
+        <footer>
+            <p>© 2026 Student Academic Dashboard</p>
+        </footer>
+    </div>
+</body>
+</html>
